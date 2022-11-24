@@ -1,0 +1,111 @@
+:root {
+  --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+  --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+}
+
+body {
+  font-size: 18px;
+  font-family: Outfit;
+  background-color: var(--Very-dark-blue-main-BG);
+}
+
+.main-section {
+  padding-left: 100px;
+}
+
+.container {
+  display: flex;
+}
+.all-div {
+  display: flex;
+  background-color: var(--Very-dark-blue-card-BG);
+  margin: 50px;
+  width: 300px;
+  height: 490px;
+  border-radius: 15px;
+}
+
+.card-whole-div {
+  margin: 20px;
+}
+
+.border-div {
+  border-bottom: 1px solid var(--White);
+}
+.last-small-image {
+  margin-bottom: 35px;
+}
+
+.image-for-card {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  width: 250px;
+  height: 210px;
+}
+
+.bitty-div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 13px;
+}
+
+.one-number {
+  color: var(--Soft-blue);
+  font-size: 16px;
+}
+
+.two-iamge-div {
+  padding-bottom: 15px;
+}
+.medium-card-div {
+  padding-top: 16px;
+}
+
+.white-number {
+  color: var(--White);
+  font-size: 16px;
+}
+
+h1 {
+  color: var(--White);
+  font-size: 18px;
+}
+
+.para-one {
+  color: var(--Soft-blue);
+  font-size: 16px;
+  padding-top: 8px;
+}
+
+.medium-para {
+  padding-left: 55px;
+}
+.number {
+  color: var(--Cyan);
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Outfit;
+}
+.small-image {
+  float: left;
+}
+
+.last-image {
+  float: left;
+  margin-top: 18px;
+  border: 1px solid var(--White);
+  border-radius: 18px;
+}
+
+.last-main-div {
+  display: flex;
+}
+.last-para {
+  padding-left: 20px;
+  padding-top: 0px;
+}
